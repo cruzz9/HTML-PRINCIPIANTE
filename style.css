@@ -1,0 +1,37 @@
+body{
+    background-color: blanchedalmond;
+}
+
+/*SELECTOR UNIVERSAL, se utiliza para el tipo de letra*/
+
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black
+}
+h2{color:antiquewhite;}
+/*de esa forma se accede a la clase de div, SELECTOR CLASS*/
+.aqua{
+    color:aqua
+}
+/*selector de ID*/
+#parrafo{
+    color:blue;
+    font-size: 40px;
+}
+div{
+    background-color: blueviolet;
+}
+/*hover puede cambiar el color del parrafo al hacer un toque con el mouse*/
+/*
+h1:hover{
+    color:orange;
+}
+*/
+
+/*active al dar un click sobre mouse cambiar el color*/
+h1:active{
+    color:red;
+    cursor:pointer;
+}
+
+

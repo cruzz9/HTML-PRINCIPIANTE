@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f7f1e3;
+    padding: 40px;
+}
+
+/* TAREA 1 */
+/* :hover */
+
+.titulo-principal {
+    color: #2d3436;
+    transition: 0.3s;
+}
+
+.titulo-principal:hover {
+    color: red;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* TAREA 2 */
+/* :active */
+
+.titulo-principal span:active {
+    color: orange;
+    transform: translateY(3px);
+}
+
+/* TAREA 3 */
+/* Imagen */
+
+.burger-img {
+    width: 100%;
+  height: 100%;
+  object-fit: contain
+}
+
+/* TAREA 4 */
+/* :checked */
+
+#arroz {
+    display: none;
+}
+
+.arroz {
+    font-size: 24px;
+    cursor: pointer;
+    color: green;
+    font-weight: bold;
+}
+
+/* Cuando se hace clic en ARROZ */
+#arroz:checked + .arroz + .titulo-burger {
+    color: red;
+}
