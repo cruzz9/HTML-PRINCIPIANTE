@@ -116,6 +116,16 @@ strong{
       background-color: #4a3428;
     }
 
+header, footer {
+  background-color: #6f4e37;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+
 
 
 
